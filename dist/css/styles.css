@@ -495,6 +495,11 @@ progress {
   font-weight: 300;
 }
 
+.mini-lead {
+  font-size: 0.75rem;
+  font-weight: 200;
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -11450,7 +11455,7 @@ html {
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -11477,7 +11482,7 @@ html {
   background-color: var(--bs-nav-block); /*! rgba(26, 188, 156, 0.9) */
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.75;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
